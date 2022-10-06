@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+
+.nav-link{
+    color: white !important;
+}
+.hero-container {
+  background-image: url("./Media/bg1.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.card-body{
+    padding:0rem;
+}
+
+.nosifier-text {
+  font-family: "Nosifer", cursive;
+  font-size: 60px;
+}
+
+@media only screen and (max-width:600px){
+    .nosifier-text{
+        font-size: 40px;
+    }
+
+}
+.faq-cont {
+  background-color: black;
+  color: white;
+}
+.nosifier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.icons-twitter {
+  color: #1da1f2;
+  font-size: 35px;
+}
+.icons-hero {
+  color: #745f98;
+  font-size: 35px;
+}
+
+.hero-col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-card {
+  background-color: rgba(100, 93, 93, 0.55) !important;
+  border-radius: 20px 20px 20px 20px !important;
+//   opacity: 100%;
+//   padding: 02rem 05rem;
+}
+
+.buy {
+  border-radius: 40px 40px 40px 40px;
+  background-color: #745f98;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+.tokenomic-container {
+  background-color: black;
+  color: white;
+}
+.token-h3 {
+  font-size: 50px;
+}
+.token-p {
+  font-size: 20px;
+}
+.icons {
+  font-size: 35px;
+}
+.token-col2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-heading:before {
+  content: "";
+  width: 130px;
+  height: 3px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background: #f7f7f8;
+  left: 6;
+  position: absolute;
+}
+
+.doc-maincontainer {
+  background-image: url("./Media/bg-banner.png");
+  background-color: #745f98;
+  color: white;
+}
+.doc-card-icon {
+  font-size: 80px !important;
+}
+.palnefluid-container {
+  background-color: black;
+  color: white;
+}
+.plane-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.readfluid-cont {
+  background-color: #745f98;
+  color: white;
+  // padding-top: 05rem;
+  padding: 2rem 0rem;
+}
+.container-read {
+  background-color: black;
+  color: white;
+}
+.card-read {
+  background-color: black !important;
+  color: white !important;
+  border-radius: 20px 20px 20px 20px !important;
+}
+.read-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.check-icon {
+  color: orange;
+  font-size: 30px;
+}
+.faq-cont {
+  background-color: black;
+  color: white;
+}
+
+.quest-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container {
+  height: 100px;
+  //   background-color: black;
+  color: white;
+}
