@@ -48,9 +48,9 @@ const config = {
 const FAQs = () => {
   return (
     <div>
-      <div className="container-fluid faq-cont">
+      <div id="faq" className="container-fluid faq-cont">
         <div className="container p-4">
-          <p className="fw-bold mb-3 line-heading"> FAQS</p>
+          <p className="fw-bold mb-3 line-heading">_____FAQS</p>
           <h3 className="card-subtitle mb-4 fw-bold">
             Frequently Asked Questions
           </h3>

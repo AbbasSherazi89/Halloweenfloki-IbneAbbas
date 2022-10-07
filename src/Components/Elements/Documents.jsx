@@ -7,10 +7,10 @@ import {AiOutlineUserSwitch} from 'react-icons/ai'
 const Documents = () => {
   return (
     <>
-      <div className="container-fluid doc-maincontainer">
+      <div id="about" className="container-fluid doc-maincontainer">
         <div className="container pt-5">
           <div>
-            <p className="fw-bold mb-3 line-heading"> WHAT IS OUR TOKENOMICS</p>
+            <p className="fw-bold mb-3 line-heading">_____WHAT IS OUR TOKENOMICS</p>
             <p>
               At Halloween Floki, we are designing a project based on definitive
               market rules and fundamental economic principles. Halloween Floki

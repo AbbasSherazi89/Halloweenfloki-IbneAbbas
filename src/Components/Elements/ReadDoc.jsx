@@ -3,7 +3,7 @@ import { AiFillCheckCircle } from "react-icons/ai";
 const ReadDoc = () => {
   return (
     <>
-      <div className="container-fluid readfluid-cont">
+      <div id="tokenomic" className="container-fluid readfluid-cont">
         <div className="container">
           <div className="row">
             <div className="col-md-2"></div>
@@ -48,17 +48,17 @@ const ReadDoc = () => {
                       aria-labelledby="dropdownMenuButton"
                     >
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/">
                           Action
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/">
                           Another action
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/">
                           Something else here
                         </a>
                       </li>

@@ -4,13 +4,13 @@ import {FiSend} from 'react-icons/fi'
 const Tokenomics = () => {
   return (
     <>
-      <div className="container-fluid tokenomic-container ">
+      <div id="tokenomic" className="container-fluid tokenomic-container ">
         <div className="container pt-5">
           <div className="row">
             <div className="col-md-6">
               <div className="fw-bold mb-5 line-heading">
               <p>
-                 WHAT IS HALLOWEEN FLOKI
+                 _____WHAT IS HALLOWEEN FLOKI
               </p>
               </div>
               <h3 className="token-h3 mb-5">

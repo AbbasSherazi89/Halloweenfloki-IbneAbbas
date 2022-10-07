@@ -7,7 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 const Ourplane = () => {
   return (
     <>
-      <div className="container-fluid palnefluid-container">
+      <div id="tokenomic" className="container-fluid palnefluid-container">
         <div className="container plane-container pt-5">
           <p className="fw-bold">ROADMAP</p>
           <h2 className="fw-bold mb-5">Our Plane</h2>
