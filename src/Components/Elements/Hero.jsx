@@ -21,7 +21,7 @@ const Hero = () => {
                 <FaTwitterSquare className="icons-twitter" />
                 <IoIosSend className="icons-hero ms-3" />
                 </div>
-                <p className="pt-4 text-center">Contract : 0x2c0e76dade015bc390a13c1b80cc1bafd9edd326</p>
+                <p className="pt-4 text-center lastText-hero">Contract : 0x2c0e76dade015bc390a13c1b80cc1bafd9edd326</p>
               </div>
             </div>
           </div>

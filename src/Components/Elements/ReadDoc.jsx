@@ -6,34 +6,29 @@ const ReadDoc = () => {
       <div id="document" className="container-fluid readfluid-cont">
         <div className="container">
           <div className="row">
-            <div className="col-md-2"></div>
-            <div className="col-md-8">
+            <div className="col-md-1"></div>
+            <div className="col-md-10">
               <div className="card card-read p-4">
                 <div className="card-body">
-                  <p className="fw-bold mb-3 line-heading"> Whitepaper</p>
+                  <p className="fw-bold mb-3 line-heading">____Whitepaper</p>
                   <h3 className="card-title">Read Our Documents</h3>
                   <div className="container">
                     <div className="row">
-                      <div className="col-md-3 read-img">
-                        <AiFillCheckCircle className="check-icon" /> KYC
+                      <div className="col-md-6 read-img">
+                        <p ><AiFillCheckCircle className="check-icon"/> KYC</p>
+                        <p className="ps-5"><AiFillCheckCircle className="check-icon" /> Audit</p>
+                        <p className="ps-5"><AiFillCheckCircle className="check-icon" /> Whitepaper</p>
                       </div>
-                      <div className="col-md-3 read-img">
-                        <AiFillCheckCircle className="check-icon" /> Audit
-                      </div>
-                      <div className="col-md-3 read-img">
-                        <AiFillCheckCircle className="check-icon" /> Whitepaper
-                      </div>
-                      {/* <div className="col-md-2 read-img"></div> */}
-                      <div className="col-md-3 read-img">
-                        <img
-                          className="img-fluid"
+                      <div className="col-md-6">
+                      <img
+                          className="img-fluid hollow-img"
                           src="assets/hollow.png"
                           alt=""
                         />
                       </div>
                     </div>
                   </div>
-                  <div className="dropdown">
+                  <div className="dropdown pt-4">
                     <button
                       className="btn btn-warning dropdown-toggle text-white"
                       type="button"
@@ -67,7 +62,7 @@ const ReadDoc = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-2"></div>
+            <div className="col-md-1"></div>
           </div>
         </div>
       </div>

@@ -19,7 +19,7 @@
   align-items: center;
   height: 90vh;
 }
-.card-body{
+.herocard-body{
     height: 25rem !important;
     display: flex;
     flex-direction: column;
@@ -40,6 +40,11 @@
     .hero-row{
       // padding-top: 20rem;
       padding-bottom: 20rem;
+    }
+    .lastText-hero{
+      text-align: center;
+      justify-content: center;
+      font-size: small;
     }
 
 }
@@ -66,13 +71,13 @@
   font-size: 50px;
 }
 
-// .hero-col2 {
-//   display: flex;
-//   flex-direction: column;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-// }
+
+.col1-read{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .hero-card {
   background-color: transparentize($color: #e18018, $amount: 0.3) !important;
@@ -86,11 +91,8 @@
 
 .buy {
   background-color: #745f98 !important;
-  // font-size: large !important;
   font-weight: bold !important;
   color: white !important;
-  // padding-left: 20px !important;
-  // padding-right: 20px !important;
   padding: 10px 30px !important;
 }
 .tokenomic-container {
@@ -133,12 +135,12 @@
 .readfluid-cont {
   background-color: #745f98;
   color: white;
-  // padding-top: 05rem;
-  padding: 2rem 0rem;
+  padding: 3rem 0rem;
 }
 .container-read {
   background-color: black;
   color: white;
+
 }
 .card-read {
   background-color: black !important;
@@ -147,7 +149,7 @@
 }
 .read-img {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -160,6 +162,9 @@
   background-color: black;
   color: white;
 }
+// .hollow-img{
+//   height: 80%;
+// }
 
 .quest-img {
   display: flex;
@@ -169,6 +174,5 @@
 }
 .footer-container {
   height: 100px;
-  //   background-color: black;
   color: white;
 }
