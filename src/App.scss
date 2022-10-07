@@ -43,6 +43,10 @@
     }
 
 }
+
+.doc-card:hover{
+  background-color:transparentize($color: #f398ee, $amount: 0.8) !important; ;
+  }
 .faq-cont {
   background-color: black;
   color: white;

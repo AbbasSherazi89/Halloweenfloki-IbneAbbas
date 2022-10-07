@@ -3,7 +3,7 @@ import { AiFillCheckCircle } from "react-icons/ai";
 const ReadDoc = () => {
   return (
     <>
-      <div id="tokenomic" className="container-fluid readfluid-cont">
+      <div id="document" className="container-fluid readfluid-cont">
         <div className="container">
           <div className="row">
             <div className="col-md-2"></div>

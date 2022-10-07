@@ -31,23 +31,23 @@ const Header = () => {
                   <Link
                     className="nav-link active"
                     aria-current="page"
-                    href="/"
+                    to="about"
                   >
                     About
                   </Link>
                 </li>
                 <li className="nav-item ms-4">
-                  <Link className="nav-link" to="tokenomic">
+                  <Link className="nav-link" to="tokenomics">
                   Tokenomics
                   </Link>
                 </li>
                 <li className="nav-item ms-4">
-                  <Link className="nav-link" to="tokenomic">
+                  <Link className="nav-link" to="roadmap">
                   Roadmap
                   </Link>
                 </li>
                 <li className="nav-item ms-4">
-                  <Link className="nav-link" to="tokenomic">
+                  <Link className="nav-link" to="document">
                   Document
                   </Link>
                 </li>

@@ -7,7 +7,7 @@ import {AiOutlineUserSwitch} from 'react-icons/ai'
 const Documents = () => {
   return (
     <>
-      <div id="about" className="container-fluid doc-maincontainer">
+      <div id="tokenomics" className="container-fluid doc-maincontainer">
         <div className="container pt-5">
           <div>
             <p className="fw-bold mb-3 line-heading">_____WHAT IS OUR TOKENOMICS</p>

@@ -4,7 +4,7 @@ import {FiSend} from 'react-icons/fi'
 const Tokenomics = () => {
   return (
     <>
-      <div id="tokenomic" className="container-fluid tokenomic-container ">
+      <div id="about" className="container-fluid tokenomic-container ">
         <div className="container pt-5">
           <div className="row">
             <div className="col-md-6">
